@@ -50,7 +50,7 @@ class MyClient(discord.Client):
 
 
 client = MyClient()
-client.run(str(TOKEN))
+client.run(config.TOKEN)
 
 import discord	
 from discord import utils
@@ -102,4 +102,4 @@ class MyClient(discord.Client):
  
 # RUN
 client = MyClient()
-client.run(str(TOKEN))
+client.run(config.TOKEN)
