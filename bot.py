@@ -1,6 +1,6 @@
 import discord
 from discord import utils
- 
+ import os
 import config
  
 class MyClient(discord.Client):
@@ -100,4 +100,4 @@ class MyClient(discord.Client):
  
 # RUN
 client = MyClient()
-client.run('NzEzMjgyMDY4NzA0MTMzMTcw.XsjVfg.fNlCVV3k5r39cmXgetEv5So7uYo')
+token = os.environ.get('BOTTOKEN')
